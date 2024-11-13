@@ -1,0 +1,37 @@
+{
+  "usuarios": [
+    { "nome": "usuario1", "senha": "senha1" },
+    { "nome": "usuario2", "senha": "senha2" }
+  ],
+  "clientes": [
+    {
+      "nome": "cliente1",
+      "cpf": "123.456.789-01",
+      "data_nascimento": "01-01-1990",
+      "telefone": "(88) 88888-8888",
+      "celular": "(88) 88888-8888"
+    }
+  ],
+  "enderecos": [
+    {
+      "cep": "88780-000",
+      "rua": "Rua A",
+      "bairro": "Centro",
+      "cidade": "Cidade A",
+      "estado": "Estado A",
+      "pais": "Pais A",
+      "cliente_id": 1,
+      "end_principal": true
+    },
+    {
+      "cep": "88780-000",
+      "rua": "Rua B",
+      "bairro": "Centro",
+      "cidade": "Cidade B",
+      "estado": "Estado B",
+      "pais": "Pais B",
+      "cliente_id": 1,
+      "end_principal": false
+    }
+  ]
+}

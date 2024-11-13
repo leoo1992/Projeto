@@ -1,0 +1,77 @@
+html {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+table,
+th,
+td,
+label {
+  color: rgb(1, 1, 105) !important;
+  font-weight: 550 !important;
+  font-family: "Poppins", ui-sans-serif, system-ui, sans-serif !important;
+}
+
+body {
+  font-weight: 550 !important;
+  color: rgb(1, 1, 105) !important;
+  font-family: "Poppins", ui-sans-serif, system-ui, sans-serif !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 100%;
+  height: 100vh;
+  background: rgb(255, 255, 255) !important;
+  background: linear-gradient(
+    165deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 1) 25%,
+    rgb(225, 241, 255) 50%,
+    rgb(230, 230, 230) 75%,
+    rgba(255, 255, 255, 1) 100%
+  ) !important;
+}
+
+.modal-dialog {
+  max-width: 400px !important;
+}
+
+.table {
+  margin-top: 20px !important;
+}
+
+.blue-shadow {
+  box-shadow: 0 4px 8px rgba(77, 162, 253, 0.596) !important;
+}
+
+.btn-primary:hover {
+  background-color: #014b9b !important ;
+  border-color: #0056b3 !important;
+}
+
+.btn-outline-primary:hover {
+  background-color: #014b9b !important ;
+  border-color: #0056b3 !important;
+}
+
+.btn-selecionar {
+  border: none;
+  color: dodgerblue;
+  padding: 0;
+  margin: 0;
+  background-color: none;
+  background: none;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.form-check-input {
+  width: 17px;
+  height: 17px;
+}
