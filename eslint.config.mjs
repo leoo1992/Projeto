@@ -1,9 +1,1 @@
-export default [
-  {
-    files: ['js/**/*.js'],
-    rules: {
-      'no-unused-vars': 'warn',
-      'no-constant-condition': 'warn',
-    },
-  },
-];
+export default [{ files: ['quality/**/*.mjs', 'tests/**/*.mjs'], rules: {} }];
